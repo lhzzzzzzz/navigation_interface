@@ -18,7 +18,7 @@ function updateCurrentTime() {
     var timeElement = document.getElementById("time");
 
     // 设置当前时间为 <div> 元素的文本内容
-    timeElement.textContent = "现在的时间是 " + formattedTime;
+    timeElement.textContent = "The current time is: " + formattedTime;
 }
 
 // 在页面加载完成后执行显示当前时间的函数，并每秒钟刷新一次

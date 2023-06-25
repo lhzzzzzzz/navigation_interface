@@ -2,16 +2,30 @@
 
 
 body {
-    height: 100vh;
     width: 100vw;
     background-color: #FFCCCC;
 }
 
+.root {
+    padding: 0px;
+}
+
+.root .header {
+    padding: 10px auto;
+    text-align: center;
+    color: #282828;
+    font-size: 45px;
+}
+
 .root #time {
-    width: 100vh;
+    width: 50vw;
     height: 100px;
     background-color: #EB6E80;
+    padding: auto auto;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 100px;
     color: #282828;
-    font-family: 'Tangerine', serif;
-    font-size: 70px;
+    font-family: 'Arail', serif;
+    font-size: 40px;
 }
